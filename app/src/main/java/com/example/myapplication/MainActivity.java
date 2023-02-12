@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("Element " + i++, s);
                 }*/
 
-                /*if(isPrime(Integer. parseInt(editTextBai3.getText().toString()))==true)
+                if(isPrime(Integer. parseInt(editTextBai3.getText().toString()))==true)
                 {
                     textView2.setText("So nguyen to");
                     Toast.makeText(MainActivity.this, "Số nguyên tố", Toast.LENGTH_SHORT).show();
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     textView2.setText("Khong phai nguyen to ");
                     Toast.makeText(MainActivity.this, "Không phải số nguyên tố", Toast.LENGTH_SHORT).show();
-                }*/
+                }
             }
         });
 
